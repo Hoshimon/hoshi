@@ -8,4 +8,5 @@ urlpatterns = [
     url(r'^$', TemplateView.as_view(template_name='index.html'), name='index'),
     url(r'^blog/', TemplateView.as_view(template_name='contact.html'), name='contact'),
     url(r'^contact/', TemplateView.as_view(template_name='contact.html'), name='contact'),
+    url(r'^utau/', TemplateView.as_view(template_name='utau.html'), name='utau'),
 ]

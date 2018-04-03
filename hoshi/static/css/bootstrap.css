@@ -9,6 +9,9 @@ html {
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
 }
+h1 a {
+        color: #FCA205;
+}
 body {
   margin: 0;
 }
@@ -43,7 +46,7 @@ template {
   display: none;
 }
 a {
-  background-color: transparent;
+  background-color: #FCA205;
 }
 a:active,
 a:hover {
